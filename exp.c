@@ -3,7 +3,7 @@
 int main()
 {
 
-        int num1 = 0x44434241;
+       int num1 = 0x44434241;
 	int num2 = 0x68676665;
 
 	FILE *fp = fopen("sample1.txt","wb");
@@ -11,6 +11,5 @@ int main()
         fwrite(&num2,4,1,fp);
 	fclose(fp);
 
-	print("file not opened!\n")
-	
+	return 0;
 }
